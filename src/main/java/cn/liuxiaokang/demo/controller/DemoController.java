@@ -12,6 +12,6 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo() {
-        return "this is jenkins test project";
+        return "this is jenkins test project (after)";
     }
 }
